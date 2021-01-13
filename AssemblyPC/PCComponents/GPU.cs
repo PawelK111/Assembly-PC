@@ -1,26 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AssemblyPC.PCComponents
 {
-    enum ProducentGPU
+    [Table("GraphicCards")]
+    public class GraphicCards : PCComponent
     {
-       AMD,
-       NVIDIA
-    }
-    public class GPU : PCComponent
-    {
-        public int Memory_GB { get; private set; }
-        public int CUDA_Cores { get; private set; }
-        public int CoreFrequency { get; private set; }
-        public int MemoryFrequency { get; private set; }
-        public int EffectiveMemoryFreq { get; private set; }
-        public string Connector { get; private set; }
-        public string TypeOfMemory { get; private set; }
-        public bool RayTracing { get; private set; }
+        public int Width { get; set; }
+        public int Memory_GB { get;  set; }
+        public int CUDA_Cores { get;  set; }
+        public int CoreFrequency { get;  set; }
+        public int MemoryFrequency { get;  set; }
+        public int EffectiveMemoryFreq { get;  set; }
+        public string Connector { get;  set; }
+        public string TypeOfMemory { get;  set; }
+        public bool RayTracing { get;  set; }
        
     }
 }

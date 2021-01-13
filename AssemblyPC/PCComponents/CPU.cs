@@ -3,24 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AssemblyPC.PCComponents
 {
-    enum ProducentCPU
+    [Table("Processors")]
+    public class Processors : PCComponent
     {
-        AMD,
-        Intel
-    }
-    public class CPU : PCComponent
-    {
-        public int Frequency { get; private set; }
-        public int MaxFrequency { get; private set; }
-        public int Cores { get; private set; }
-        public int Threads { get; private set; }
-        public int Cache_MB { get; private set; }
-        public string Socket { get; private set; }
-        public bool HasGraphicLayout { get; private set; }
-        public bool HasUnlockerMultiplier { get; private set; }
+        public int Frequency { get;  set; }
+        public int MaxFrequency { get;  set; }
+        public int Cores { get;  set; }
+        public int Threads { get;  set; }
+        public int Cache_MB { get;  set; }
+        public string Socket { get;  set; }
+        public bool HasGraphicLayout { get;  set; }
+        public bool HasUnlockerMultiplier { get;  set; }
 
     }
 }

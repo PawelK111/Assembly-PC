@@ -13,3 +13,12 @@ C:\Users\Paweł Kulewicz\Documents\GitHub\AssemblyPC\AssemblyPC\obj\Debug\Assemb
 C:\Users\Paweł Kulewicz\Documents\GitHub\AssemblyPC\AssemblyPC\obj\Debug\AssemblyPC.csproj.CoreCompileInputs.cache
 C:\Users\Paweł Kulewicz\Documents\GitHub\AssemblyPC\AssemblyPC\obj\Debug\AssemblyPC.exe
 C:\Users\Paweł Kulewicz\Documents\GitHub\AssemblyPC\AssemblyPC\obj\Debug\AssemblyPC.pdb
+C:\Users\Paweł Kulewicz\Documents\GitHub\AssemblyPC\AssemblyPC\bin\Debug\EntityFramework.dll
+C:\Users\Paweł Kulewicz\Documents\GitHub\AssemblyPC\AssemblyPC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Paweł Kulewicz\Documents\GitHub\AssemblyPC\AssemblyPC\bin\Debug\EntityFramework.xml
+C:\Users\Paweł Kulewicz\Documents\GitHub\AssemblyPC\AssemblyPC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Paweł Kulewicz\Documents\GitHub\AssemblyPC\AssemblyPC\obj\Debug\AssemblyPC.csproj.CopyComplete
+C:\Users\Paweł Kulewicz\Documents\GitHub\AssemblyPC\AssemblyPC\bin\Debug\MetroFramework.Design.dll
+C:\Users\Paweł Kulewicz\Documents\GitHub\AssemblyPC\AssemblyPC\bin\Debug\MetroFramework.dll
+C:\Users\Paweł Kulewicz\Documents\GitHub\AssemblyPC\AssemblyPC\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Paweł Kulewicz\Documents\GitHub\AssemblyPC\AssemblyPC\obj\Debug\AssemblyPC.Migrations.DataBaseMigration.resources

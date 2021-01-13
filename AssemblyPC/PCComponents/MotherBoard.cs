@@ -1,37 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace AssemblyPC.PCComponents
 {
-    enum MOBAProducer
+    public class TypeOfMotherBoards
     {
-        ASUS,
-        Gigabyte,
-        MSI,
-        ASRock,
-        NZXT
+        [Key]
+        public int ID { get; set; }
+        public string TypeOfMOBA { get; set; }
     }
-    public enum Format
+    [Table("MotherBoards")]
+    public class MotherBoards : PCComponent
     {
-        ATX,
-        mATX,
-        mITX,
-        uATX,
-        E_ATX,
-        mDTX
-    }
-    public class MotherBoard : PCComponent
-    {
-        public int Height { get; private set; }
-        public int Weight { get; private set; }
-        public int NumberOfMemorySlots { get; private set; }
-        public int MaxRamSupported_GB { get; private set; }
-        public string Socket { get; private set; }
-        public string Chipset { get; private set; }
-        public Format Format { get; set; }
-        public Dictionary<string, int> TypeOfMemorySupported { get; private set; }
+        public TypeOfMotherBoards typeOfMotherBoards { get; set; }
+        public int Height { get; set; }
+        public int Width { get; private set; }
+        public int NumberOfMemorySlots { get; set; }
+        public int MaxRamSupported_GB { get; set; }
+        public string Socket { get; set; }
+        public string Chipset { get; set; }
+        public string Format { get; set; }
     }
 }
