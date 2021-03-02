@@ -13,5 +13,6 @@ namespace AssemblyPC
         public string Model { get; set;}
         public decimal Cost { get; set;}
         public string AdditionalInfo { get; set; }
+
     }
 }

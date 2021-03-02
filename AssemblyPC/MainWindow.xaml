@@ -8,14 +8,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="HDD / SSD" Margin="10,10,690,376" Height="30" Width="80" Click="SelectComponents"/>
-            <Button Content="GPU" Margin="107,10,586,376" Height="30" Width="80" Click="SelectComponents"/>
-            <Button Content="CPU" Margin="211,10,487,376" Height="30" Width="80" Click="SelectComponents"/>
-            <Button Content="MotherBoard" Margin="407,12,295,377" Height="30" Width="80" Click="SelectComponents" />
-            <Button Content="Cover" Margin="502,12,200,377" Height="30" Width="80" Click="SelectComponents" />
-            <Button Content="RAM" Margin="597,12,105,377" Height="30" Width="80" Click="SelectComponents"/>
-            <Button Content="Power supply" Margin="692,12,10,377" Height="30" Width="80" Click="SelectComponents"/>
-            <Button Content="Cooling" Margin="310,10,388,376" Height="30" Width="80" Click="SelectComponents" />
+        <Button Content="HDD / SSD" Margin="10,10,690,376" Height="30" Width="80" VerticalAlignment="Top" Click="SelectComponents"/>
+        <Button Content="GPU" Margin="107,10,586,376" Height="30" Width="80" VerticalAlignment="Top" Click="SelectComponents"/>
+        <Button Content="CPU" Margin="211,10,487,376" Height="30" Width="80" VerticalAlignment="Top" Click="SelectComponents"/>
+        <Button Content="MotherBoard" Margin="407,12,295,377" Height="30" Width="80" VerticalAlignment="Top" Click="SelectComponents" />
+        <Button Content="Cover" Margin="502,12,200,377" Height="30" Width="80" VerticalAlignment="Top" Click="SelectComponents" />
+        <Button Content="RAM" Margin="597,12,105,377" Height="30" Width="80" VerticalAlignment="Top" Click="SelectComponents"/>
+        <Button Content="Power supply" Margin="692,12,10,377" Height="30" Width="80" VerticalAlignment="Top" Click="SelectComponents"/>
+        <Button Content="Cooling" Margin="310,10,388,376" Height="30" Width="80" VerticalAlignment="Top" Click="SelectComponents" />
+        <Button Content="Add Component to DB" HorizontalAlignment="Left" Margin="16,379,0,0" VerticalAlignment="Top" Width="163" Height="30" Click="Button_Click"/>
+
         <DataGrid x:Name="ListOfComponent" HorizontalAlignment="Left" Height="244" VerticalAlignment="Top" Width="575" Margin="112,56,0,0">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID" Width="30"></DataGridTextColumn>
@@ -26,7 +28,7 @@
                 <DataGridTextColumn Header="More info" Width="100"></DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
+        
     </Grid>
-
 </Window>
 

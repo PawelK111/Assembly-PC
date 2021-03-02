@@ -14,7 +14,7 @@ namespace AssemblyPC.PCComponents
     {
         public TypeOfMotherBoards typeOfMotherBoards { get; set; }
         public int Height { get; set; }
-        public int Width { get; private set; }
+        public int Width { get; set; }
         public int NumberOfMemorySlots { get; set; }
         public int MaxRamSupported_GB { get; set; }
         public string Socket { get; set; }

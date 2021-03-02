@@ -1,20 +1,20 @@
-﻿AssemblyPC
+﻿csgo
 
 
 winexe
 C#
 .cs
 C:\Users\Paweł Kulewicz\Documents\GitHub\AssemblyPC\AssemblyPC\obj\Debug\
-AssemblyPC
+csgo
 none
 false
 DEBUG;TRACE
 C:\Users\Paweł Kulewicz\Documents\GitHub\AssemblyPC\AssemblyPC\App.xaml
 21586785208
 
-20-504113582
+21-1346472949
 18-1075632644
 AddComponentDB.xaml;MainWindow.xaml;
 
-False
+True
 
